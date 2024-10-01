@@ -1,0 +1,1 @@
+def convert_objectid_to_str(obj): return str(obj['_id'])
