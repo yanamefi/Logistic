@@ -1,0 +1,104 @@
+.container {
+    position: absolute;
+    width: 1920px;
+    height: 275px;
+    border-top: 3px solid rgba(73, 73, 73, 0.5);
+    background: rgba(45, 45, 45, 1);
+    top: 3292px;
+}
+
+.contacts {
+    position: absolute;
+    left: 388px;
+    top: 35px;
+}
+
+.contacts h1 {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19.5px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 5px;
+}
+
+.contacts h2 {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17.07px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 4px;
+}
+
+.contacts p {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17.07px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.Finder {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19.5px;
+    color: white;
+    position: absolute;
+    top: 35px;
+    left: 583px;
+    display: flex;
+    flex-direction: column; 
+    
+}
+
+.imageContainer {
+    display: flex; 
+    gap: 10px; 
+    margin-top: 10px; 
+  }
+
+.Finder img{
+    display: flex;
+    flex-direction: row;
+}
+
+.otherInfo {
+    position: absolute;
+    top: 35px;
+    left: 771px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17.07px;
+    color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    position: absolute;
+    left: 388px;
+    top: 202px;
+}
+
+.logo h1 {
+    font-family: "Syncopate";
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 33.31px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.logo p {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14.63px;
+    color: rgba(255, 255, 255, 0.5);
+}

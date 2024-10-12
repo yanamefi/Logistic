@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Syncopate:wght@400;700&family=Unbounded:wght@200..900&display=swap');
+
+
+.container {
+    position: fixed;
+    z-index: 1000;
+    top: 25px; 
+    width: 1920px;
+    padding: 38px;
+    background-color: white;
+    border: 0.5px solid rgba(73, 73, 73, 0.3);
+    transition: top 0.1s ease;
+}
+
+.container.scrolled {
+    top: 0; 
+}
+
+
+.container_items {
+    position: absolute;
+    left: 388px;
+    top: 16px;
+}
+
+.container_items h1 {
+    font-family: "Syncopate";
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.authVariant {
+    white-space: nowrap;
+    font-family: "Montserrat";
+    font-weight: 600;
+    align-items: center;
+    top: 0;
+    position: absolute;
+    left: 844px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}

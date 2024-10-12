@@ -1,0 +1,53 @@
+.container {
+    background: linear-gradient(180deg, #2D2D2D 0%, #1C1C1C 100%);
+    width: 1920px;
+    height: 652px;
+    position: absolute;
+    top: 2640px;
+}
+
+.container .Photo {
+    position: absolute;
+    left: 386px;
+}
+
+.itemsContainer {
+    position: absolute;
+    left: 980px;
+    top: 50px;
+    text-align: center;
+
+}
+
+.itemsContainer .idea {
+    display: block; /* Дозволяє зображенню займати місце як блочний елемент */
+    margin: 0 auto; /* Центрує зображення */
+    margin-bottom: 34px;
+}
+
+
+.itemsContainer h1 {
+    color: white;
+    font-family: "Unbounded";
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29.76px;
+    margin-bottom: 30px;
+}
+
+.itemsContainer h2 {
+    color: white;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29.76px;
+    margin-bottom: 30px;
+}
+
+.itemsContainer .Arrow {
+    position: absolute;
+    display: block; /* Дозволяє зображенню займати місце як блочний елемент */
+    margin: 0 auto; 
+    left: 474px;
+    top: 275px;
+}

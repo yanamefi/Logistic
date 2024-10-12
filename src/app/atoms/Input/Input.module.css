@@ -1,0 +1,36 @@
+
+.inputContainer {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 5px;
+
+    color: gray;
+
+}
+
+.input::placeholder {
+    font-family: 'Unbounded';
+    color: black;
+    font-size: 14px;
+}
+
+.input {
+    height: 25px;
+    width: 320px;
+    padding: 10px;
+    border: 1px solid #494949B2; 
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+
+.input:focus {
+    border-color: black; 
+    outline: none; 
+}

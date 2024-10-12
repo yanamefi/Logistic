@@ -1,0 +1,63 @@
+.container {
+    position: absolute;
+    width: 1920px;
+    height: 615px;
+    top: 2025px;
+    background: linear-gradient(180deg, #373737 0%, #2D2D2D 100%);
+
+}
+
+.itemContainer {
+    position: absolute;
+    left: 368px;
+     text-align: center;
+     top: 100px;
+}
+
+.itemContainer .Line {
+    position: relative;
+    left: 282px;
+    top: 53px;
+    z-index: 1
+}
+
+.itemContainer h1 {
+    font-family: "Unbounded";
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+    line-height: 29.76px;
+    margin-bottom: 25px;
+}
+
+.itemContainer p:first-of-type {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29.26px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 20px; 
+}
+
+.itemContainer p:last-of-type {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29.26px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 0; 
+}
+
+.centeredImage {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 34px;
+}
+
+.Truck {
+    position: absolute;
+    left: 660px;
+    top: 20px;
+}
+
+

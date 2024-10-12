@@ -1,0 +1,35 @@
+.container {
+    position: absolute;
+    top: 1457px;
+    background-image: url("./img/Background.png");
+    width: 1920px;
+    height: 568px;   
+}
+
+.container h1 {
+    position: relative;
+   font-family: "Unbounded"; 
+   font-weight: 800;
+   font-size: 32px;
+   line-height: 39.68px;
+   color: white;
+   text-align: center;
+   top: 50px;
+}
+
+.itemsContainer {
+    display: flex;
+    position: relative;
+    top: 140px;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    border: 5px dashed rgba(255, 191, 96, 1);
+    height: 328px;
+    display: flex;
+    flex-direction: row;
+    width: 1440px;
+    margin: 0 auto;
+    border-left: none;
+    border-right: none;
+}

@@ -1,0 +1,50 @@
+.container { 
+    position: absolute;
+    left: 240px;
+    width: 1440px;
+    height: 529px;
+    top: 103px;
+}
+
+.container h1 {
+    font-family: "Unbounded";
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.container h2 {
+    position: relative;
+    top: 0px;
+    line-height: 39.68px;
+    font-family: "Unbounded";
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.container h3 {
+    line-height: 24.8px;
+    position: relative;
+    top: 19px;
+    font-family: "Unbounded";
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(45, 45, 45, 0.5);
+}
+
+.container Button {
+    position: relative;
+    top: 50px;
+}
+
+.itemContainer {
+    position: absolute;
+    top: 100px;
+    left: 148px;
+}
+
+.itemContainer img {
+    position: absolute;
+    left: 371px;
+    top: 118px;
+    max-width: 155%;
+}

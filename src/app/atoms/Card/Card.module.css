@@ -1,0 +1,76 @@
+.card {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 260px;
+    height: 240px;
+    text-align: center;
+    transition: transform 0.3s;
+    position: relative;
+
+}
+
+.card h3 {
+    font-family: "Unbounded";
+    font-weight: 500;
+    font-size: 24;
+    line-height: 29.76px;
+}
+
+.card p {
+    font-family: "Unbounded";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.84px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.icon img {
+    width: 45px;
+    height: 45px;
+    left: -10px;
+}
+
+.icon {
+     position: absolute;
+    top: -55px; /* Розташування іконки ближче до верхнього краю */
+    left: -60px; /* Розташування іконки ліворуч */
+    float: left; 
+    border: 10px solid rgba(45, 45, 45, 1);
+    background-color: rgba(73, 73, 73, 1);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 15px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.title {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.description {
+    font-size: 0.9em;
+    line-height: 1.5;
+}
+
+.primary {
+
+    background-color: rgba(73, 73, 73, 1);
+}
+
+.secondary {
+    background-color: #555;
+}
+
+.tertiary {
+    background-color: #777;
+}

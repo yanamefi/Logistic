@@ -1,0 +1,47 @@
+.container {
+    position: relative;
+    width: 1920px;
+    height: 825px;
+    top: 632px;
+    background-color: rgba(45, 45, 45, 1);
+}
+
+.container_header {
+    background-color: rgba(255, 191, 96, 1);
+    width: 1920px;
+    height: 30px;
+    text-align: center;
+}
+
+.container_header h1 {
+    font-family: "Unbounded";
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 27.28px;
+    color: rgba(45, 45, 45, 1);
+}
+
+.container_cards {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    position: absolute;
+    top: 65px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    margin-bottom: 80px;
+    position: relative;
+    left: 438px;
+    top: 55px;
+    display: flex;
+    gap: 157px; /* Відстань між картками в рядку */
+    justify-content: center;
+}
+
